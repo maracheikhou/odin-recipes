@@ -1,0 +1,187 @@
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
+                    Page 1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/***************************************************
+**************************************************** 
+                    EN TETE
+****************************************************
+*****************************************************/
+ #en_tete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 133, 35);
+    height: 150px;
+    width: auto;
+    text-align:center ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    
+ }
+
+
+/***************************************************
+ ****************************************************
+                    PIED
+ ****************************************************                   
+*****************************************************/
+
+#pied_de_page{
+    display: flex;
+    background-color: rgb(238, 133, 35);
+    height: 150px;
+    width: auto;
+    justify-content: center;
+ }
+
+ #pied_de_page a{
+    margin-top: 30px;
+    font-size: 30px;
+ }
+
+ /***************************************************
+****************************************************  
+                    le corps
+****************************************************                    
+*****************************************************/
+*{
+    height: auto;
+    width: auto;
+    display: bloc
+}
+
+
+#corps{
+   background-color: bisque;
+    height: 950px;
+    width: auto;
+   display: block;
+ }
+
+ 
+
+a{
+    font-size: 12px;
+    color:  white;
+    text-decoration: none;
+}
+     /**************** partie 1****************/
+#corps .corps_part1 ,#corps  .corps_part2{
+  margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#corps  .corps_part2{}
+
+#corps .corps_part1 .part1{
+   /*  background-color: rgb(22, 219, 38);*/
+    width: 50%;
+    height: 100%;
+    display: block;
+    
+    
+}
+
+
+ /***************************************************
+****************************************************  
+                    image
+****************************************************                    
+*****************************************************/
+#corps .corps_part1 .part1 .image{
+    display: flex;
+    height: 80%;
+    width: 100%;
+     justify-content: center;
+     
+}
+
+#corps .corps_part1 .part1 .detaille{
+        height: 20%;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        
+}
+
+#corps .corps_part1 .part1 .image img{
+     border-radius: 10px;
+     margin-top: 10px;
+}
+
+
+#corps .corps_part1 .part1 .detaille button{
+        height: 40px;
+        width: 100px;
+        margin-top: 10px;
+        border-radius: 3px;
+        background-color: blanchedalmond;
+        color:  rgb(238, 133, 35);
+        
+}
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
+                    Page 2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/***************************************************
+****************************************************  
+                    le corps
+****************************************************                    
+*****************************************************/
+
+
+#corps .corps_part2 .part2{
+   
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+
+#corps .corps_part2 .part2 .imagePlus{
+    height: 100%;
+    width: 30%;
+    border: 2px solid rgb(238, 133, 35);
+    border-radius: 12px;
+}
+
+#corps .corps_part2 .part2 .imagePlus img{
+    border-radius: 12px;
+}
+
+#corps .corps_part2 .part2 .detaillePlus{
+ height: 100%;
+    width: 70%;
+    justify-content: center;
+    font-size: 23px;
+     color:  rgb(236, 145, 60);
+
+}
+
+#corps .corps_part2 .part2 .imagePlus{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+ 
+}
+
+#corps .corps_part2 .part2 .detaillePlus h3{
+    text-align: center;
+     background-color:  rgb(238, 133, 35);
+     color: aliceblue;
+     border-radius: 12px;
+}
+
